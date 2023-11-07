@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #b8f0ff;
+  --secondary: #98ffcc;
+  --black: #000000;
+  --white: #ffffff;
+  --primary-pink: #ff5a79;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--white);
+  user-select: none;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+ */
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+.text-center {
+  text-align: center;
+}
